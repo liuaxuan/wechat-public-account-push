@@ -10,10 +10,10 @@ export const config = {
     APP_SECRET: "e78783eaee8260afff06e5b0f4b6500d",
 
     // 模板消息id
-    TEMPLATE_ID: "qpZNfE145TrM8ymeKqONhTxfKHkMaI1kidXZbcBar4o",
+    TEMPLATE_ID: "snLMWawL1hNJQnRePK9T1ZRoSqp6G9IPlwLSl5WtWuM",
 
     // 回调消息模板id, 用来看自己有没有发送成功的那个模板
-    CALLBACK_TEMPLATE_ID: "qpZNfE145TrM8ymeKqONhTxfKHkMaI1kidXZbcBar4o",
+    CALLBACK_TEMPLATE_ID: "gNL9wFmoiMkIic5j6_R7P9F7xSg-bbFkgkN-141AwQY",
 
     // 接收公众号消息的微信号，如果有多个，需要在[]里用英文逗号间隔，例如
     // [{
@@ -54,7 +54,7 @@ export const config = {
     // 节日时，name填写相应展示的节日，你可以填“被搭讪纪念日”
     FESTIVALS: [
       {"type": "生日", "name": "阿滑", "year": "1998", "date": "11-25"},
-      {"type": "节日", "name": "到莱芜", "year": "2022", "date": "09-04"},
+      {"type": "节日", "name": "认识阿滑的日子", "year": "2021", "date": "07-02"},
     ],
     // 限制重要节日的展示条目, 需要填写数字; 
     // 如果为3, 则仅展示“将要到达” 的3个重要节日提醒，剩下的将被忽略
@@ -64,7 +64,7 @@ export const config = {
     /** 日期相关 */
 
     // 认识阿滑的日子，格式同上
-    KNOW_DATE: "2021-07-02",
+    LOVE_DATE: "2021-07-02",
     // 生日
     BIRTHDAY_DATE: "1998-11-25",
 
@@ -83,7 +83,7 @@ export const config = {
 // 天气：{{weather.DATA}}  
 // 最低气温: {{min_temperature.DATA}}  
 // 最高气温: {{max_temperature.DATA}}  
-// 今天是到莱芜的第{{leave_day.DATA}}天
+// 今天是认识阿滑的第{{love_day.DATA}}天
 // {{birthday_message.DATA}}
 
 // {{note_en.DATA}}  
