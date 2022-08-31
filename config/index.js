@@ -10,7 +10,7 @@ export const config = {
     APP_SECRET: "e78783eaee8260afff06e5b0f4b6500d",
 
     // 模板消息id
-    TEMPLATE_ID: "snLMWawL1hNJQnRePK9T1ZRoSqp6G9IPlwLSl5WtWuM",
+    TEMPLATE_ID: "fAk_A9bITQcn3lM9orED-OY3Jo1j28MJJ8DZmLwSdTY",
 
     // 回调消息模板id, 用来看自己有没有发送成功的那个模板
     CALLBACK_TEMPLATE_ID: "gNL9wFmoiMkIic5j6_R7P9F7xSg-bbFkgkN-141AwQY",
@@ -25,7 +25,7 @@ export const config = {
     //   id: "wxafasdasdd-zxfvsdfd"
     // }]
     USERS: [
-      {name: '老婆0', id: "oCbeK6B84SOEsjmov-TfnCsADv0g"}, 
+      {name: '刘左手', id: "oCbeK6B84SOEsjmov-TfnCsADv0g"}, 
       {name: '老婆1', id: "2hxOO6VskYv0Kuf-y你懂的,填错狗头打烂RMpuXhk"}, 
       {name: '老婆2', id: "3hxOO6VskYv0Kuf-yw你懂的,填错狗头打烂2RMpuXhk"}, 
       {name: '老婆3', id: "4hxOO6VskYv0Kuf-ywI你懂的,填错狗头打烂MpuXhk"}, 
@@ -54,7 +54,9 @@ export const config = {
     // 节日时，name填写相应展示的节日，你可以填“被搭讪纪念日”
     FESTIVALS: [
       {"type": "生日", "name": "阿滑", "year": "1998", "date": "11-25"},
-      {"type": "节日", "name": "有可能被男同事追的日哟，一定很开心呢！"},
+      {"type": "节日", "name": "结婚纪念日", "year": "2020", "date": "01-04"},
+      {"type": "生日", "name": "李四", "year": "1996", "date": "08-29"},
+      {"type": "节日", "name": "被搭讪纪念日", "year": "2021", "date": "08-29"},
     ],
     // 限制重要节日的展示条目, 需要填写数字; 
     // 如果为3, 则仅展示“将要到达” 的3个重要节日提醒，剩下的将被忽略
@@ -65,10 +67,8 @@ export const config = {
 
     // 认识阿滑的日子，格式同上
     LOVE_DATE: "2021-07-02",
-    // 到莱芜的
-    MARRY_DATE: "2",
-    // 生日
-    BIRTHDAY_DATE: "1998-11-25",
+    // 离开济宁的日子
+    MARRY_DATE: "2020-01-04",
 
 
     /** 每日一言 */
@@ -86,8 +86,7 @@ export const config = {
 // 最低气温: {{min_temperature.DATA}}  
 // 最高气温: {{max_temperature.DATA}}  
 // 今天是认识阿滑的第{{love_day.DATA}}天
-
-// 今天是到莱芜的第{{marry_day.DATA}}天
+// 今天是离开济宁的第{{marry_day.DATA}}天
 // {{birthday_message.DATA}}
 
 // {{note_en.DATA}}  
