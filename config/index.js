@@ -10,7 +10,7 @@ export const config = {
     APP_SECRET: "e78783eaee8260afff06e5b0f4b6500d",
 
     // 模板消息id
-    TEMPLATE_ID: "xxxxxxxxxxxxx-y你懂的,填错狗头打烂VRMpu",
+    TEMPLATE_ID: "qpZNfE145TrM8ymeKqONhTxfKHkMaI1kidXZbcBar4o",
 
     // 回调消息模板id, 用来看自己有没有发送成功的那个模板
     CALLBACK_TEMPLATE_ID: "qpZNfE145TrM8ymeKqONhTxfKHkMaI1kidXZbcBar4o",
@@ -54,7 +54,7 @@ export const config = {
     // 节日时，name填写相应展示的节日，你可以填“被搭讪纪念日”
     FESTIVALS: [
       {"type": "生日", "name": "别人家的阿滑", "year": "1998", "date": "11-25"},
-      {"type": "节日", "name": "来莱芜", "year": "2022", "date": "09-04"},
+      {"type": "节日", "name": "到莱芜", "year": "2022", "date": "09-04"},
     ],
     // 限制重要节日的展示条目, 需要填写数字; 
     // 如果为3, 则仅展示“将要到达” 的3个重要节日提醒，剩下的将被忽略
@@ -63,9 +63,9 @@ export const config = {
 
     /** 日期相关 */
 
-    // 在一起的日子，格式同上
+    // 到莱芜的日子，格式同上
     LEAVE_DATE: "2022-09-04",
-    // 结婚纪念日
+    // 生日
     BIRTHDAY_DATE: "1998-11-25",
 
 
