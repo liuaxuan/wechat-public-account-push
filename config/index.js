@@ -66,7 +66,7 @@ export const config = {
     // 认识阿滑的日子，格式同上
     LOVE_DATE: "2021-07-02",
     // 到莱芜的
-    MARRY_DATE: "2022-08-20",
+    MARRY_DATE: "2",
     // 生日
     BIRTHDAY_DATE: "1998-11-25",
 
@@ -86,6 +86,7 @@ export const config = {
 // 最低气温: {{min_temperature.DATA}}  
 // 最高气温: {{max_temperature.DATA}}  
 // 今天是认识阿滑的第{{love_day.DATA}}天
+
 // 今天是到莱芜的第{{marry_day.DATA}}天
 // {{birthday_message.DATA}}
 
