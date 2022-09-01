@@ -10,7 +10,7 @@ export const config = {
     APP_SECRET: "e78783eaee8260afff06e5b0f4b6500d",
 
     // 模板消息id
-    TEMPLATE_ID: "Qep0V1GqhVBDRT0h-byYgk6N9yRy8srRZG68L8PjAyk",
+    TEMPLATE_ID: "J_fomvfQ9ySzgtE9tc9bCxCvMm1mudoRmJHdgilFMKs",
 
     // 回调消息模板id, 用来看自己有没有发送成功的那个模板
     CALLBACK_TEMPLATE_ID: "gNL9wFmoiMkIic5j6_R7P9F7xSg-bbFkgkN-141AwQY",
@@ -54,7 +54,6 @@ export const config = {
     // 节日时，name填写相应展示的节日，你可以填“被搭讪纪念日”
     FESTIVALS: [
       {"type": "生日", "name": "阿滑", "year": "1998", "date": "11-25"},
-      {"type": "节日", "name": "被搭讪纪念日", "year": "1998", "date": "11-05"},
     ],
     // 限制重要节日的展示条目, 需要填写数字; 
     // 如果为3, 则仅展示“将要到达” 的3个重要节日提醒，剩下的将被忽略
@@ -83,7 +82,7 @@ export const config = {
 // 最低气温: {{min_temperature.DATA}}  
 // 最高气温: {{max_temperature.DATA}}  
 // 今天是认识阿滑的第{{love_day.DATA}}天
-// 今天肯定又新增了几个喜欢你的人，好开心。
+// 今天肯定又新增好几个喜欢阿滑的人，真替你开心呢。
 // {{birthday_message.DATA}}
 
 // {{note_en.DATA}}  
