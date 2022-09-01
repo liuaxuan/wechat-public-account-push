@@ -54,7 +54,7 @@ export const config = {
     // 节日时，name填写相应展示的节日，你可以填“被搭讪纪念日”
     FESTIVALS: [
       {"type": "生日", "name": "阿滑", "year": "1998", "date": "11-25"},
-      {"type": "节日", "name": "", "year": "1998", "date": "11-05"},
+      {"type": "节日", "name": "被搭讪纪念日", "year": "1998", "date": "11-05"},
     ],
     // 限制重要节日的展示条目, 需要填写数字; 
     // 如果为3, 则仅展示“将要到达” 的3个重要节日提醒，剩下的将被忽略
@@ -65,8 +65,7 @@ export const config = {
 
     // 认识阿滑的日子，格式同上
     LOVE_DATE: "2021-07-02",
-    // 离开济宁的日子
-    MARRY_DATE: "2020-01-04",
+    // 今天肯定又新增了几个喜欢你的人，好开心。
 
 
     /** 每日一言 */
@@ -84,7 +83,7 @@ export const config = {
 // 最低气温: {{min_temperature.DATA}}  
 // 最高气温: {{max_temperature.DATA}}  
 // 今天是认识阿滑的第{{love_day.DATA}}天
-// 今天是离开济宁的第{{marry_day.DATA}}天
+// 今天肯定又新增了几个喜欢你的人，好开心。
 // {{birthday_message.DATA}}
 
 // {{note_en.DATA}}  
